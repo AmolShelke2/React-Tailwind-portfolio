@@ -37,9 +37,9 @@ export default function Home() {
             </ul>
           </nav>
           {/* hero section */}
-          <div>
-            <h2>Amol Shelke</h2>
-            <h3>Developer and Designer</h3>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-600 ">Amol Shelke</h2>
+            <h3 className="text-2xl py-2">Developer and Designer</h3>
             <p>
               Self-tought web developer providing services for programming
               needs. Join me down below and let's get cracking!
