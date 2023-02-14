@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { BsFillMoonStarsFill } from "react-icons/bs";
+
 export default function Home() {
   return (
     <div>
@@ -14,7 +16,9 @@ export default function Home() {
           <nav>
             <h1>AmolShelke</h1>
             <ul>
-              <li></li>
+              <li>
+                <BsFillMoonStarsFill />
+              </li>
               <li>
                 <a href="#">Resume</a>
               </li>
