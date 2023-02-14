@@ -11,7 +11,15 @@ export default function Home() {
       </Head>
       <main>
         <section className="min-h-screen">
-          <h1>Hello</h1>
+          <nav>
+            <h1>AmolShelke</h1>
+            <ul>
+              <li></li>
+              <li>
+                <a href="#">Resume</a>
+              </li>
+            </ul>
+          </nav>
         </section>
       </main>
     </div>
