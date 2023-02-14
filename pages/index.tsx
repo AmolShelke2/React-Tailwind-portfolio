@@ -11,8 +11,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* main section */}
       <main className=" bg-white px-10">
         <section className="min-h-screen">
+          {/* nav section */}
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl">AmolShelke</h1>
             <ul className="flex items-center">
@@ -28,6 +30,8 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+          {/* hero section */}
+          <div></div>
         </section>
       </main>
     </div>
