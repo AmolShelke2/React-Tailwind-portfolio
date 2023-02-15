@@ -76,6 +76,8 @@ export default function Home() {
               looking for some challenging projects to work on.
             </p>
           </div>
+
+          {/* project cards component */}
         </section>
       </main>
     </div>
