@@ -51,9 +51,9 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
-            <AiFillLinkedin />
-            <AiFillTwitterCircle />
-            <AiFillInstagram />
+            <AiFillLinkedin className=" cursor-pointer" />
+            <AiFillTwitterCircle className=" cursor-pointer" />
+            <AiFillInstagram className=" cursor-pointer" />
           </div>
           <div className="relative bg-gradient-to-b mx-auto from-teal-500 rounded-full w-80 h-80 my-10 overflow-hidden">
             <Image
