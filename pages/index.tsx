@@ -64,6 +64,16 @@ export default function Home() {
             />
           </div>
         </section>
+
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Services I offer</h3>
+            <p>
+              Since the beginning of my journey as a self-tought developer, I've
+              created so many projects
+            </p>
+          </div>
+        </section>
       </main>
     </div>
   );
