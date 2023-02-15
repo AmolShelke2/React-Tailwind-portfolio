@@ -8,6 +8,9 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 
+import Image from "next/image";
+import deved from "../public/dev-ed-wave.png";
+
 export default function Home() {
   return (
     <div>
@@ -38,17 +41,27 @@ export default function Home() {
           </nav>
           {/* hero section */}
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 ">Amol Shelke</h2>
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+              Amol Shelke
+            </h2>
             <h3 className="text-2xl py-2">Developer and Designer</h3>
-            <p>
+            <p className="text-md py-5 leading-8 text-gray-800">
               Self-tought web developer providing services for programming
               needs. Join me down below and let's get cracking!
             </p>
           </div>
-          <div>
+          <div className="text-5xl flex justify-center gap-16 text-gray-600">
             <AiFillLinkedin />
             <AiFillTwitterCircle />
             <AiFillInstagram />
+          </div>
+          <div className="relative bg-gradient-to-b mx-auto from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+            <Image
+              alt="hero image"
+              src={deved}
+              layout="fill"
+              objectFit="cover"
+            />
           </div>
         </section>
       </main>
