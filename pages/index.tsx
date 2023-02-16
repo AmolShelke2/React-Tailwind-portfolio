@@ -121,6 +121,12 @@ export default function Home() {
             <p className="text-gray-800 py-1">Technical writing</p>
           </div>
         </section>
+
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Portfolio</h3>
+          </div>
+        </section>
       </main>
     </div>
   );
