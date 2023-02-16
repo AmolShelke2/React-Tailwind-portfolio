@@ -32,7 +32,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* main section */}
-      <main className=" bg-white px-10">
+      <main className=" bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           {/* nav section */}
           <nav className="py-10 mb-12 flex justify-between">
@@ -52,11 +52,13 @@ export default function Home() {
           </nav>
           {/* hero section */}
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Amol Shelke
             </h2>
-            <h3 className="text-2xl py-2">Developer and Designer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+            <h3 className="text-2xl py-2 md:text-3xl">
+              Developer and Designer
+            </h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
               Self-tought web developer providing services for programming
               needs. Join me down below and let's get cracking!
             </p>
@@ -66,7 +68,7 @@ export default function Home() {
             <AiFillTwitterCircle className=" cursor-pointer" />
             <AiFillInstagram className=" cursor-pointer" />
           </div>
-          <div className="relative bg-gradient-to-b mx-auto from-teal-500 rounded-full w-80 h-80 my-10 overflow-hidden">
+          <div className="relative bg-gradient-to-b mx-auto from-teal-500 rounded-full w-80 h-80 my-10 overflow-hidden md:h-96 md:w-96">
             <Image
               alt="hero image"
               src={deved}
@@ -76,56 +78,65 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
-          <div>
+        <section className="my-2">
+          <div className="flex flex-col items-center justify-center lg:max-w-xl mx-auto">
             <h3 className="text-3xl py-1">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a self-tought developer, I've
               created so many projects And shared it on
-              <span className="text-teal-500">Linkedin</span> and share the code
-              on <span className="text-teal-500">Github</span>. I'm always
+              <span className="text-teal-500"> Linkedin</span> and share the
+              code on <span className="text-teal-500">Github</span>. I'm always
               looking for some challenging projects to work on.
             </p>
           </div>
 
           {/* card section */}
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
-            <Image src={design} alt="design" height={100} width={100} />
-            <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
-            <p className="py-2">
-              Creating elegant designs suited for your needs following design
-              core theory.
-            </p>
-            <h4 className="py-4 text-teal-600">Design tools I use</h4>
-            <p className="text-gray-800 py-1">Photoshop</p>
-            <p className="text-gray-800 py-1">Illustrator</p>
-            <p className="text-gray-800 py-1">Figma</p>
-          </div>
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
+              <Image src={design} alt="design" height={100} width={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Beautiful designs
+              </h3>
+              <p className="py-2">
+                Creating elegant designs suited for your needs following design
+                core theory.
+              </p>
+              <h4 className="py-4 text-teal-600">Design tools I use</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Illustrator</p>
+              <p className="text-gray-800 py-1">Figma</p>
+            </div>
 
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
-            <Image src={code} alt="code" height={100} width={100} />
-            <h3 className="text-lg font-medium pt-8 pb-2">Web devlopment</h3>
-            <p className="py-2">
-              Converting designs in code with the experince which from my
-              personal projects.
-            </p>
-            <h4 className="py-4 text-teal-600">Specialize in following</h4>
-            <p className="text-gray-800 py-1">Front-end Development</p>
-            <p className="text-gray-800 py-1">HTML CSS and JavaScript</p>
-            <p className="text-gray-800 py-1">ReactJS</p>
-          </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
+              <Image src={code} alt="code" height={100} width={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2">Web devlopment</h3>
+              <p className="py-2">
+                Converting designs in code with the experince which from my
+                personal projects.
+              </p>
+              <h4 className="py-4 text-teal-600">Specialize in following</h4>
+              <p className="text-gray-800 py-1">Front-end Development</p>
+              <p className="text-gray-800 py-1">HTML CSS and JavaScript</p>
+              <p className="text-gray-800 py-1">ReactJS</p>
+            </div>
 
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
-            <Image src={consulting} alt="consulting" height={100} width={100} />
-            <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
-            <p className="py-2">
-              Consulting my batchmates regarding web and app development. And
-              Open-source
-            </p>
-            <h4 className="py-4 text-teal-600">Consulting in following</h4>
-            <p className="text-gray-800 py-1">Web development</p>
-            <p className="text-gray-800 py-1">Open-source</p>
-            <p className="text-gray-800 py-1">Technical writing</p>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
+              <Image
+                src={consulting}
+                alt="consulting"
+                height={100}
+                width={100}
+              />
+              <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
+              <p className="py-2">
+                Consulting my batchmates regarding web and app development. And
+                Open-source
+              </p>
+              <h4 className="py-4 text-teal-600">Consulting in following</h4>
+              <p className="text-gray-800 py-1">Web development</p>
+              <p className="text-gray-800 py-1">Open-source</p>
+              <p className="text-gray-800 py-1">Technical writing</p>
+            </div>
           </div>
         </section>
 
