@@ -15,6 +15,13 @@ import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import design from "../public/design.png";
 
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
+
 export default function Home() {
   return (
     <div>
@@ -125,6 +132,33 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1">Project</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              Since the beginning of my journey as a self-tought developer, I've
+              created so many projects And shared it on
+              <span className="text-teal-500">Linkedin</span> and share the code
+              on <span className="text-teal-500">Github</span>. I'm always
+              looking for some challenging projects to work on.
+            </p>
+          </div>
+          <div>
+            <div>
+              <Image src={web1} alt="" />
+            </div>
+            <div>
+              <Image src={web2} alt="" />
+            </div>
+            <div>
+              <Image src={web3} alt="" />
+            </div>
+            <div>
+              <Image src={web4} alt="" />
+            </div>
+            <div>
+              <Image src={web5} alt="" />
+            </div>
+            <div>
+              <Image src={web6} alt="" />
+            </div>
           </div>
         </section>
       </main>
