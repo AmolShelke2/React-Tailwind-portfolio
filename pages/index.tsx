@@ -11,6 +11,10 @@ import {
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
 
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
+import design from "../public/design.png";
+
 export default function Home() {
   return (
     <div>
@@ -78,6 +82,44 @@ export default function Home() {
           </div>
 
           {/* card section */}
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
+            <Image src={design} alt="design" height={100} width={100} />
+            <h3 className="text-lg font-medium pt-8 pb-2">Beautiful designs</h3>
+            <p className="py-2">
+              Creating elegant designs suited for your needs following design
+              core theory.
+            </p>
+            <h4 className="py-4 text-teal-600">Design tools I use</h4>
+            <p className="text-gray-800 py-1">Photoshop</p>
+            <p className="text-gray-800 py-1">Illustrator</p>
+            <p className="text-gray-800 py-1">Figma</p>
+          </div>
+
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
+            <Image src={code} alt="code" height={100} width={100} />
+            <h3 className="text-lg font-medium pt-8 pb-2">Web devlopment</h3>
+            <p className="py-2">
+              Converting designs in code with the experince which from my
+              personal projects.
+            </p>
+            <h4 className="py-4 text-teal-600">Specialize in following</h4>
+            <p className="text-gray-800 py-1">Front-end Development</p>
+            <p className="text-gray-800 py-1">HTML CSS and JavaScript</p>
+            <p className="text-gray-800 py-1">ReactJS</p>
+          </div>
+
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex flex-col items-center justify-center">
+            <Image src={consulting} alt="consulting" height={100} width={100} />
+            <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
+            <p className="py-2">
+              Consulting my batchmates regarding web and app development. And
+              Open-source
+            </p>
+            <h4 className="py-4 text-teal-600">Consulting in following</h4>
+            <p className="text-gray-800 py-1">Web development</p>
+            <p className="text-gray-800 py-1">Open-source</p>
+            <p className="text-gray-800 py-1">Technical writing</p>
+          </div>
         </section>
       </main>
     </div>
