@@ -77,7 +77,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* project cards component */}
+          {/* card section */}
         </section>
       </main>
     </div>
