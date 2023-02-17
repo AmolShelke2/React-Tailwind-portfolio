@@ -1,26 +1,26 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 // icons
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill } from 'react-icons/bs';
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillInstagram,
-} from "react-icons/ai";
+} from 'react-icons/ai';
 
-import Image from "next/image";
-import deved from "../public/dev-ed-wave.png";
+import Image from 'next/image';
+import deved from '../public/dev-ed-wave.png';
 
-import code from "../public/code.png";
-import consulting from "../public/consulting.png";
-import design from "../public/design.png";
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
+import design from '../public/design.png';
 
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import web1 from '../public/web1.png';
+import web2 from '../public/web2.png';
+import web3 from '../public/web3.png';
+import web4 from '../public/web4.png';
+import web5 from '../public/web5.png';
+import web6 from '../public/web6.png';
 
 export default function Home() {
   return (
@@ -44,7 +44,8 @@ export default function Home() {
               <li>
                 <a
                   href="#"
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4  py-2 rounded-md ml-8">
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4  py-2 rounded-md ml-8"
+                >
                   Resume
                 </a>
               </li>
@@ -151,24 +152,60 @@ export default function Home() {
               looking for some challenging projects to work on.
             </p>
           </div>
-          <div>
-            <div>
-              <Image src={web1} alt="" />
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                src={web1}
+                alt=""
+              />
             </div>
-            <div>
-              <Image src={web2} alt="" />
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                src={web2}
+                alt=""
+              />
             </div>
-            <div>
-              <Image src={web3} alt="" />
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                src={web3}
+                alt=""
+              />
             </div>
-            <div>
-              <Image src={web4} alt="" />
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                src={web4}
+                alt=""
+              />
             </div>
-            <div>
-              <Image src={web5} alt="" />
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                src={web5}
+                alt=""
+              />
             </div>
-            <div>
-              <Image src={web6} alt="" />
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                src={web6}
+                alt=""
+              />
             </div>
           </div>
         </section>
