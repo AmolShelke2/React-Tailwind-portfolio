@@ -141,8 +141,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
-          <div>
+        <section className=" my-10">
+          <div className="lg:max-w-xl mx-auto">
             <h3 className="text-3xl py-1">Project</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a self-tought developer, I've
