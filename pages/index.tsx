@@ -140,7 +140,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="">
+        <section>
           <div>
             <h3 className="text-3xl py-1">Project</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
