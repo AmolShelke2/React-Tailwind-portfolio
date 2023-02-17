@@ -62,18 +62,18 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Amol Shelke
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl">
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
               Developer and Designer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
               Self-tought web developer providing services for programming
               needs. Join me down below and let's get cracking!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
-            <AiFillLinkedin className=" cursor-pointer" />
-            <AiFillTwitterCircle className=" cursor-pointer" />
-            <AiFillInstagram className=" cursor-pointer" />
+            <AiFillLinkedin className=" cursor-pointer dark:text-white" />
+            <AiFillTwitterCircle className=" cursor-pointer dark:text-white" />
+            <AiFillInstagram className=" cursor-pointer dark:text-white" />
           </div>
           <div className="relative bg-gradient-to-b mx-auto from-teal-500 rounded-full w-80 h-80 my-10 overflow-hidden md:h-96 md:w-96">
             <Image
@@ -87,8 +87,10 @@ export default function Home() {
 
         <section className="my-2">
           <div className="flex flex-col items-center justify-center lg:max-w-xl mx-auto">
-            <h3 className="text-3xl py-1">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <h3 className="text-3xl py-1 dark:text-teal-600">
+              Services I offer
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Since the beginning of my journey as a self-tought developer, I've
               created so many projects And shared it on
               <span className="text-teal-500"> Linkedin</span> and share the
