@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useState } from 'react';
 
 // icons
 import { BsFillMoonStarsFill } from 'react-icons/bs';
