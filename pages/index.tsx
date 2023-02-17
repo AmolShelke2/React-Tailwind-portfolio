@@ -160,7 +160,7 @@ export default function Home() {
               looking for some challenging projects to work on.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 py-10 mb-10 lg:flex-row lg:flex-wrap lg:mb-10">
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
@@ -217,6 +217,19 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <footer>
+          <p className=" text-center text-teal-500 text-lg p-8 lg:text-2xl">
+            Design and developed by
+            <a
+              href="https://github.com/AmolShelke2"
+              target="_blank"
+              className="text-black underline pl-1"
+            >
+              Amol Shelke
+            </a>
+            ❤️
+          </p>
+        </footer>
       </main>
     </div>
   );
