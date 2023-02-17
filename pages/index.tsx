@@ -163,54 +163,42 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 mb-10 lg:flex-row lg:flex-wrap lg:mb-10">
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={'100%'}
-                height={'100%'}
+                className="rounded-lg object-cover h-full w-full"
                 src={web1}
                 alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={'100%'}
-                height={'100%'}
+                className="rounded-lg object-cover h-full w-full"
                 src={web2}
                 alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={'100%'}
-                height={'100%'}
+                className="rounded-lg object-cover h-full w-full"
                 src={web3}
                 alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={'100%'}
-                height={'100%'}
+                className="rounded-lg object-cover h-full w-full"
                 src={web4}
                 alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={'100%'}
-                height={'100%'}
+                className="rounded-lg object-cover h-full w-full"
                 src={web5}
                 alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={'100%'}
-                height={'100%'}
+                className="rounded-lg object-cover h-full w-full"
                 src={web6}
                 alt=""
               />
@@ -223,7 +211,7 @@ export default function Home() {
             <a
               href="https://github.com/AmolShelke2"
               target="_blank"
-              className="text-black underline pl-1"
+              className="text-black underline pl-1 dark:text-white"
             >
               Amol Shelke
             </a>
