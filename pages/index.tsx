@@ -67,7 +67,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
               Self-tought web developer providing services for programming
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and let`&apos;`s get cracking!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
@@ -91,11 +91,11 @@ export default function Home() {
               Services I offer
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beginning of my journey as a self-tought developer, I've
-              created so many projects And shared it on
+              Since the beginning of my journey as a self-tought developer,
+              I`&apos;`ve created so many projects And shared it on
               <span className="text-teal-500"> Linkedin</span> and share the
-              code on <span className="text-teal-500">Github</span>. I'm always
-              looking for some challenging projects to work on.
+              code on <span className="text-teal-500">Github</span>. I`&apos;`m
+              always looking for some challenging projects to work on.
             </p>
           </div>
 
@@ -153,11 +153,11 @@ export default function Home() {
           <div className="lg:max-w-xl mx-auto dark:text-white">
             <h3 className="text-3xl py-1">Project</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beginning of my journey as a self-tought developer, I've
-              created so many projects And shared it on
+              Since the beginning of my journey as a self-tought developer,
+              I`&apos;`ve created so many projects And shared it on
               <span className="text-teal-500">Linkedin</span> and share the code
-              on <span className="text-teal-500">Github</span>. I'm always
-              looking for some challenging projects to work on.
+              on <span className="text-teal-500">Github</span>. I`&apos;`m
+              always looking for some challenging projects to work on.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 mb-10 lg:flex-row lg:flex-wrap lg:mb-10">
@@ -211,6 +211,7 @@ export default function Home() {
             <a
               href="https://github.com/AmolShelke2"
               target="_blank"
+              rel="noreferrer"
               className="text-black underline pl-1 dark:text-white"
             >
               Amol Shelke
