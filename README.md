@@ -1,3 +1,7 @@
+# React and Tailwind Portfolio
+
+This is a practice portfolio project created with Tailwind and ReactJS.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
