@@ -67,7 +67,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
               Self-tought web developer providing services for programming
-              needs. Join me down below and let`&apos;`s get cracking!
+              needs. Join me down below and let&apos;s get cracking!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
@@ -92,9 +92,9 @@ export default function Home() {
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Since the beginning of my journey as a self-tought developer,
-              I`&apos;`ve created so many projects And shared it on
+              I&apos;ve created so many projects And shared it on
               <span className="text-teal-500"> Linkedin</span> and share the
-              code on <span className="text-teal-500">Github</span>. I`&apos;`m
+              code on <span className="text-teal-500">Github</span>. I&apos;m
               always looking for some challenging projects to work on.
             </p>
           </div>
@@ -154,10 +154,10 @@ export default function Home() {
             <h3 className="text-3xl py-1">Project</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Since the beginning of my journey as a self-tought developer,
-              I`&apos;`ve created so many projects And shared it on
+              I&apos;ve created so many projects And shared it on
               <span className="text-teal-500">Linkedin</span> and share the code
-              on <span className="text-teal-500">Github</span>. I`&apos;`m
-              always looking for some challenging projects to work on.
+              on <span className="text-teal-500">Github</span>. I&apos;m always
+              looking for some challenging projects to work on.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 mb-10 lg:flex-row lg:flex-wrap lg:mb-10">
