@@ -34,6 +34,16 @@ This is a practice portfolio project created with Tailwind and ReactJS. This is 
 
 ## SetUp
 
+```bash
+git clone https://github.com/AmolShelke2/react-tailwind-portfolio
+
+cd react-tailwind-portfolio
+
+code .
+```
+
+## Getting started
+
 First, run the development server:
 
 ```bash
