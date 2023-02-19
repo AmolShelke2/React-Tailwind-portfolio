@@ -1,9 +1,35 @@
 # React and Tailwind Portfolio
 
-This is a practice portfolio project created with Tailwind and ReactJS.
+This is a practice portfolio project created with Tailwind and ReactJS. This is the first time I have used Tailwind CSS in my React Projects. I'm planning on converting my old portfolio to a new one with tailwind and React it will be done in no time.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<hr>
 
+## Tech used
+
+- HTML 
+- CSS
+- ReactJS
+- NEXT JS
+- Tailwind CSS
+
+<hr>
+
+## Features
+
+- Dark and Light themes
+- Fully Responsive
+- Tailwind for Styling 
+
+<hr>
+
+## Live Preview
+[Tailwind React Portfolio](https://react-tailwind-portfolio-wheat.vercel.app/)
+
+
+## Preview
+
+![react-tailwind-portfolio-wheat vercel app_](https://user-images.githubusercontent.com/95171638/219949296-4744568a-3048-43a5-ada0-b84baff073bf.png)
+<hr>
 ## Getting Started
 
 First, run the development server:
