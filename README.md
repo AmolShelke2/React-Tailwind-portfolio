@@ -32,7 +32,7 @@ This is a practice portfolio project created with Tailwind and ReactJS. This is 
 
 <hr>
 
-## Getting Started
+## SetUp
 
 First, run the development server:
 
