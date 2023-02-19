@@ -6,7 +6,7 @@ This is a practice portfolio project created with Tailwind and ReactJS. This is 
 
 ## Tech used
 
-- HTML 
+- HTML
 - CSS
 - ReactJS
 - NEXT JS
@@ -18,18 +18,20 @@ This is a practice portfolio project created with Tailwind and ReactJS. This is 
 
 - Dark and Light themes
 - Fully Responsive
-- Tailwind for Styling 
+- Tailwind for Styling
 
 <hr>
 
 ## Live Preview
-[Tailwind React Portfolio](https://react-tailwind-portfolio-wheat.vercel.app/)
 
+[Tailwind React Portfolio](https://react-tailwind-portfolio-wheat.vercel.app/)
 
 ## Preview
 
 ![react-tailwind-portfolio-wheat vercel app_](https://user-images.githubusercontent.com/95171638/219949296-4744568a-3048-43a5-ada0-b84baff073bf.png)
+
 <hr>
+
 ## Getting Started
 
 First, run the development server:
