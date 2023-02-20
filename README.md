@@ -37,7 +37,11 @@ This is a practice portfolio project created with Tailwind and ReactJS. This is 
 ```bash
 git clone https://github.com/AmolShelke2/react-tailwind-portfolio
 
+# then
+
 cd react-tailwind-portfolio
+
+# then
 
 code .
 ```
